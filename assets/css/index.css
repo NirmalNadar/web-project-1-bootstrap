@@ -4,8 +4,16 @@
     box-sizing: border-box;
 }
 
-
-
+#nav{
+    background-color: #1B0635 !important;
+    
+}
+.nav-item>a{
+    color:#FFFFFF !important;
+}
+.nav-item>a:hover{
+    color:#992d2d !important;
+}
 
 
 
