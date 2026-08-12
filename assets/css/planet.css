@@ -1,0 +1,84 @@
+
+.intro-img{
+    background-image: url('../image/solar-system/gradient-galaxy-background_23-2150810626.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.planet-title-container{
+  
+   margin-top: 30px;
+   margin-bottom: 15px;
+}
+.planet-title-container>h1{
+    color: #17171B;
+     border-left: 15px solid #1B0635;
+   border-bottom: 3px solid #1B0635;
+   font-size: 24px;
+   display: inline;
+   padding: 5px;
+   
+}
+.planet-description{
+    display: flex;
+    flex-wrap: wrap;
+}
+.planet-description>*{
+    flex-basis: 100%;
+    padding: 15px;
+}
+ .planet-image-container{
+        width:100%;
+        border-radius: 15px;
+    }
+    .planet-image{
+        width:100%;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .planet-description-text>p{
+        text-align: justify;
+    }
+   
+   
+    .physical-characteristics>h2{
+         color: #17171B;
+        font-size: 20px;
+         border-bottom: 3px solid #1B0635;
+         display: inline;
+         
+    }
+    .physical-characteristics>p{
+        text-align: justify;
+        margin-top: 10px;
+        padding: 5px;
+    }
+    .moon>h2{
+        font-size: 20px;
+    }
+    .saturn{
+        
+        min-height: 250px;
+
+    }
+   
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:1024px){
+    
+    .planet-image-container{
+        flex: 1;
+        
+    }
+    .planet-description-text{
+        flex:2;
+        
+    }
+    
+  
+
+}
