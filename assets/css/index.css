@@ -8,17 +8,126 @@
     background-color: #1B0635 !important;
     
 }
+.nav-item{
+    padding: 0px;
+}
 .nav-item>a{
     color:#FFFFFF !important;
 }
 .nav-item>a:hover{
     color:#992d2d !important;
+    
 }
 
+/******welcome title***********/
 
+.welcome-img{
+    background-image: url('../image/solar-system/space-animated.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.welcome-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.welcome-overlay>h5{
+    font-size: 14px;
+}
+.img-container{
+   
+}
+
+/* BANNER */
+
+.card-container>*{
+    flex-basis: 100%;
+}
+.card-banner{
+    border-radius: 10px;
+    /* box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.8); */
+}
+.card-banner:hover{
+    transform:translateY(-3px)
+}
+.planet-banner{
+    background-image: url('../image/solar-system/planets-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+.deep-space-banner{
+      background-image: url('../image/solar-system/deep-space-banner.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+.telescope-banner{
+       background-image: url('../image/solar-system/telescope-banner.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    padding: 20px 40px;
+    border-radius: 25px;
+    color:#ffffff;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    font-size: 14px;
+}
+.banner-button{
+    padding: 4px 8px;
+    align-self: flex-start;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color:#ffffff;
+    transition: background-color;
+    transition-duration: 0.9s;
+    transition-timing-function: ease-in-out;
+    font-size: 12px;
+}
+.banner-button > a{
+    text-decoration: none;
+    color:#ffffff;
+}
+.banner-button:hover{
+    background-color: #ffdd67;
+    color: #393e46;
+    
+}
+.rounded-card{
+    border-radius: 10px !important;
+}
+.card-img-top{
+    border-radius: 10px !important;
+}
+.card{
+    width:100% !important;
+}
+.latest-title{
+    text-align: center !important;
+}
+.latest-link{
+    color:#393e46;
+    
+}
+.latest-link:hover{
+    color: rgb(192, 43, 118) !important;
+}
 
 @media (min-width:768px) {
-    
+    .welcome-overlay>h5{
+    font-size: 16px;
+    text-align: center;
+}
+.nav-item{
+    padding: 10px;
+}
 }
 
 
