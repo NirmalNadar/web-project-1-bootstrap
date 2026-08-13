@@ -32,9 +32,7 @@
 .welcome-overlay>h5{
     font-size: 14px;
 }
-.img-container{
-   
-}
+
 
 /* BANNER */
 
@@ -105,6 +103,7 @@
 }
 .card-img-top{
     border-radius: 10px !important;
+    height: 150px;
 }
 .card{
     width:100% !important;
