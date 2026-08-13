@@ -164,5 +164,7 @@ footer{
 
 
 @media (min-width:1024px) {
-    
+    .card{
+        width:100% !important;
+}
 }
