@@ -27,7 +27,8 @@
     background-size: cover;
 }
 .welcome-overlay{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
 }
 .welcome-overlay>h5{
     font-size: 14px;
@@ -150,7 +151,7 @@ footer{
 @media (min-width:768px) {
     .welcome-overlay>h5{
     font-size: 16px;
-    text-align: center;
+    
 }
 .nav-item{
     padding: 10px;
@@ -166,5 +167,10 @@ footer{
 @media (min-width:1024px) {
     .card{
         width:100% !important;
+}
+    .welcome-overlay>h5{
+    font-size: 16px;
+    
+    
 }
 }

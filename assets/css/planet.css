@@ -8,9 +8,9 @@
     background-size: cover;
 }
 .exo-title{
-    border-left: 15px solid #FF8DA1;
-    border-bottom: 2px solid #FF8DA1;
-    border-top: 2px solid #FF8DA1;
+    border-left: 15px solid rgba(0, 0, 0, 1);
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    border-top: 2px solid rgba(0, 0, 0, 1);
     display: inline;
     font-size: 22px;
 }
