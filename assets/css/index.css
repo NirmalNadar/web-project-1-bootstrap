@@ -1,176 +1,235 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-#nav{
-    background-color: #1B0635 !important;
-    
+#nav {
+  /* background-color: #1B0635 !important; */
+  background-color: #000401 !important;
 }
-.nav-item{
-    padding: 0px;
+.nav-item {
+  padding: 0px;
 }
-.nav-item>a{
-    color:#FFFFFF !important;
+.nav-item > a {
+  color: #ffffff !important;
 }
-.nav-item>a:hover{
-    color:#992d2d !important;
-    
+.nav-item > a:hover {
+  color: #992d2d !important;
 }
+
+
+
 
 /******welcome title***********/
 
-.welcome-img{
-    background-image: url('../image/solar-system/space-animated.jpg');
-    background-position: center;
-    background-size: cover;
+.welcome-img {
+  background-image: url("../image/solar-system/space-animated.jpg");
+  background-position: center;
+  background-size: cover;
 }
-.welcome-overlay{
-    background-color: rgba(0, 0, 0, 1);
+.welcome-overlay {
+  background-color: rgba(0, 0, 0, 1);
+  width: 100%;
+}
+.welcome-overlay > h5 {
+  font-size: 14px;
+}
+
+
+
+/*     CAROUSEL   */
+.carousel-inner {
+  height: 250px;
+  
+}
+.carousel-item{
+    position: relative;
     width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
-.welcome-overlay>h5{
-    font-size: 14px;
+.img-overlay{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
 }
+.image{
+    height: 100%;
+}
+.overlay-text{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    bottom:0px;
+    left: 0px;
+}
+.overlay-text>h4>a{
+    text-decoration: underline;
+    color: #FFFFFF !important;
+    font-size: 18px;
+}
+
 
 
 /* BANNER */
 
-.card-container>*{
-    flex-basis: 100%;
+.card-container > * {
+  flex-basis: 100%;
 }
-.card-banner{
-    border-radius: 10px;
-    /* box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.8); */
+.card-banner {
+  border-radius: 10px;
+  /* box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.8); */
 }
-.card-banner:hover{
-    transform:translateY(-1px)
+.card-banner:hover {
+  transform: translateY(-1px);
 }
-.planet-banner{
-    background-image: url('../image/solar-system/planets-banner.jpg');
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    width: 100%;
+.planet-banner {
+  background-image: url("../image/solar-system/planets-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
 }
-.deep-space-banner{
-      background-image: url('../image/solar-system/deep-space-banner.jpeg');
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    width: 100%;
+.deep-space-banner {
+  background-image: url("../image/solar-system/deep-space-banner.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
 }
-.telescope-banner{
-       background-image: url('../image/solar-system/telescope-banner.jpg');
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    width: 100%;
+.telescope-banner {
+  background-image: url("../image/solar-system/telescope-banner.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
 }
-.overlay{
-    display: flex;
-    flex-direction: column;
-    row-gap: 80px;
-    padding: 20px 40px;
-    border-radius: 25px;
-    color:#ffffff;
-    background-color: rgba(0,0,0,0.6);
-    width: 100%;
-    font-size: 14px;
+.overlay {
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  padding: 20px 40px;
+  border-radius: 25px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  font-size: 14px;
 }
-.banner-button{
-    padding: 4px 8px;
-    align-self: flex-start;
-    background-color: transparent;
-    border: 1px solid #ffffff;
-    color:#ffffff;
-    transition: background-color;
-    transition-duration: 0.9s;
-    transition-timing-function: ease-in-out;
-    font-size: 12px;
+.banner-button {
+  padding: 4px 8px;
+  align-self: flex-start;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  transition: background-color;
+  transition-duration: 0.9s;
+  transition-timing-function: ease-in-out;
+  font-size: 12px;
 }
-.banner-button > a{
-    text-decoration: none;
-    color:#ffffff;
+.banner-button > a {
+  text-decoration: none;
+  color: #ffffff;
 }
-.banner-button:hover{
-    background-color: #ffdd67;
-    color: #393e46;
-    
+.banner-button:hover {
+  background-color: #ffdd67;
+  color: #393e46;
 }
-.rounded-card{
-    border-radius: 10px !important;
+.rounded-card {
+  border-radius: 10px !important;
 }
-.card-img-top{
-    border-radius: 10px !important;
-    height: 150px;
+.card-img-top {
+  border-radius: 10px !important;
+  height: 150px;
 }
-.card{
-    width:100% !important;
+.card {
+  width: 100% !important;
 }
-.latest-title{
-    text-align: center !important;
+.latest-title {
+  text-align: center !important;
 }
-.latest-link{
-    color:#393e46;
-    
+.latest-link {
+  color: #393e46;
 }
-.latest-link:hover{
-    color: rgb(192, 43, 118) !important;
+.latest-link:hover {
+  color: rgb(192, 43, 118) !important;
 }
 
 /*   FOOTER     */
 
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
+}
+.footer-title {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  color: #ffffff;
+}
+.footer-list {
+  list-style: none;
+  padding-left: 3px;
+  font-size: 14px;
+}
+.fa-brands {
+  font-size: 20px;
+}
+.about-us {
+  font-size: 14px;
+}
+.follow-us {
+  font-size: 18px;
+}
 
-footer{
-    background-color: #1B0635;
-    color: #FFFFFF;
-    padding: 15px;
-}
-.footer-title{
-    text-decoration: underline;
-    text-underline-offset: 7px;
-    color: #FFFFFF;
-}
-.footer-list{
-    list-style: none;
-    padding-left: 3px;
-    font-size: 14px;
-}
-.fa-brands{
-    font-size: 20px;
-}
-.about-us{
-    font-size: 14px;
-}
-.follow-us{
-    font-size: 18px;
-}
-
-@media (min-width:768px) {
-    .welcome-overlay>h5{
+@media (min-width: 768px) {
+  .carousel-inner {
+    height: 250px;
+  }
+  .welcome-overlay > h5 {
     font-size: 16px;
-    
-}
-.nav-item{
+  }
+  .nav-item {
     padding: 10px;
-}
-.footer-list{
+  }
+  .footer-list {
     list-style: none;
     padding-bottom: 8px;
     font-size: 14px;
+  }
+  .overlay-text>h4>a{
+    text-decoration: underline;
+    color: #FFFFFF !important;
+    font-size: 18px;
 }
 }
 
-
-@media (min-width:1024px) {
-    .card{
-        width:100% !important;
-}
-    .welcome-overlay>h5{
+@media (min-width: 1024px) {
+  .card {
+    width: 100% !important;
+  }
+  .welcome-overlay > h5 {
     font-size: 16px;
+  }
+  .carousel-inner {
+    height: 430px;
+  }
+  .overlay-text>h4>a{
+    text-decoration: underline;
+    color: #FFFFFF !important;
+    font-size: 24px;
     
-    
+}
+.overlay-text>h4>a:hover{
+    color: #992d2d !important;
+}
+.overlay-text{
+    left:30px;
+    padding: 40px;
 }
 }
