@@ -15,7 +15,7 @@
   color: #FFFFFF !important;
 }
 .nav-item > a:hover {
-  color: #992d2d !important;
+  color: pink !important;
 }
 
 
@@ -29,7 +29,7 @@
   background-size: cover;
 }
 .welcome-overlay {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: pink !important;
   width: 100%;
 }
 .welcome-overlay > h5 {
@@ -168,7 +168,7 @@
 
 footer {
   background-color: #000000;
-  color: #ffffff;
+ 
   padding: 15px;
 }
 .footer-title {
@@ -181,14 +181,25 @@ footer {
   padding-left: 3px;
   font-size: 14px;
 }
+.footer-list>a{
+  text-decoration: none;
+  color:pink !important
+}
+.footer-list:hover .footer-list>a{
+  text-decoration: underline !important;
+}
+
 .fa-brands {
   font-size: 20px;
+  color: pink !important;
 }
 .about-us {
   font-size: 14px;
+  color: pink !important;
 }
 .follow-us {
   font-size: 18px;
+  color: pink !important;
 }
 
 @media (min-width: 768px) {
