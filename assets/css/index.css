@@ -3,10 +3,18 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  padding-top:90px;
+}
 
 #nav {
   /* background-color: #1B0635 !important; */
   background-color: #000401 !important;
+  position: fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+  z-index: 9;
 }
 .nav-item {
   padding: 10px;
