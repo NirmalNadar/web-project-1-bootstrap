@@ -49,6 +49,7 @@ body{
 /*     CAROUSEL   */
 .carousel-inner {
   height: 250px;
+  border-radius: 10px;
   
 }
 .carousel-item{
@@ -81,14 +82,21 @@ body{
 }
 .overlay-text>h4>a{
     text-decoration: underline;
+    text-underline-offset: 6px;
     color: #FFFFFF !important;
     font-size: 18px;
+}
+.overlay-text>h4>a:hover{
+  color:pink !important;
 }
 
 
 
 /* BANNER */
 
+.latest-title{
+  font-size: 18px;
+}
 .card-container > * {
   flex-basis: 100%;
 }
@@ -182,6 +190,7 @@ footer {
 .footer-title {
   text-decoration: underline;
   text-underline-offset: 7px;
+  font-size: 16px;
   color: #ffffff;
 }
 .footer-list {
@@ -206,9 +215,21 @@ footer {
   color: pink !important;
 }
 .follow-us {
-  font-size: 18px;
+  
   color: pink !important;
 }
+.contact-us{
+  color:pink !important;
+  font-size: 14px;
+}
+.nailing{
+  font-size: 16px;
+}
+
+
+
+/*   TABLET VIEW    */
+
 
 @media (min-width: 768px) {
   .carousel-inner {
@@ -232,6 +253,10 @@ footer {
 }
 }
 
+
+/* LARGE SCREEN VIEW      */
+
+
 @media (min-width: 1024px) {
   .card {
     width: 100% !important;
@@ -248,11 +273,25 @@ footer {
     font-size: 24px;
     
 }
-.overlay-text>h4>a:hover{
-    color: #992d2d !important;
-}
+
 .overlay-text{
     left:30px;
     padding: 40px;
+}
+.latest-title{
+  font-size: 20px;
+}
+
+.footer-title {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  color: #ffffff;
+}
+.follow-us {
+  font-size: 18px;
+  color: pink !important;
+}
+.mailing{
+  font-size: 16px;
 }
 }
