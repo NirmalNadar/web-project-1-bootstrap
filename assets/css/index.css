@@ -165,7 +165,7 @@ body{
 }
 .card-img-top {
   border-radius: 10px !important;
-  height: 150px;
+  height: 200px;
 }
 .card {
   width: 100% !important;
@@ -280,6 +280,10 @@ footer {
 }
 .latest-title{
   font-size: 20px;
+}
+.card-img-top {
+  border-radius: 10px !important;
+  height: 150px;
 }
 
 .footer-title {
