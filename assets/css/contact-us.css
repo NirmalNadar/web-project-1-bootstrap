@@ -1,13 +1,17 @@
 .form-container{
     max-width: 800px !important;
     margin: 0px auto;
-    background-color: #FFFFFF;
+   
    
 }
 .contact-container{
     max-width: 530px !important;
     margin: 0px auto;
+     background-color: #FFFFFF !important;
    
+}
+.main-container{
+    background-color: #F1EDEA !important;
 }
 .message{
     background-color: #000000 !important;
