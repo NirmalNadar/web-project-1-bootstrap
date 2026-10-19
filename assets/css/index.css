@@ -149,15 +149,13 @@ body{
   background-color: transparent;
   border: 1px solid #ffffff;
   color: #ffffff;
-  transition: background-color;
-  transition-duration: 0.9s;
-  transition-timing-function: ease-in-out;
+  
   font-size: 12px;
 }
 .banner-button > a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #ffffff !important;
-  text-decoration: none;
+  
 }
 .banner-button:hover {
   background-color: #DC3C0C !important;
