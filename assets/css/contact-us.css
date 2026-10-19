@@ -1,5 +1,10 @@
 .form-container{
-    max-width: 500px !important;
+    max-width: 800px !important;
+    margin: 0px auto;
+   
+}
+.contact-container{
+    max-width: 530px !important;
     margin: 0px auto;
    
 }

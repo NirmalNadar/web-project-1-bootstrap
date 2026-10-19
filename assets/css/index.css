@@ -23,7 +23,7 @@ body{
   color: #FFFFFF !important;
 }
 .nav-item > a:hover {
-  color: pink !important;
+  color: #DC3C0C !important;
 }
 
 
@@ -37,7 +37,7 @@ body{
   background-size: cover;
 }
 .welcome-overlay {
-  background-color: pink !important;
+  /* background-color: #DC3C0C !important; */
   width: 100%;
 }
 .welcome-overlay > h5 {
@@ -87,7 +87,7 @@ body{
     font-size: 18px;
 }
 .overlay-text>h4>a:hover{
-  color:pink !important;
+  color:#DC3C0C !important;
 }
 
 
@@ -156,7 +156,8 @@ body{
   text-decoration: none;
 }
 .banner-button:hover {
-  background-color: #992d2d;
+  background-color: #DC3C0C !important;
+  text-decoration: none;
   color: #FFFFFF !important;
   text-decoration: none;
 }
@@ -177,21 +178,21 @@ body{
   color: #393e46;
 }
 .latest-link:hover {
-  color: rgb(192, 43, 118) !important;
+  color: #DC3C0C !important;
 }
 
 /*   FOOTER     */
 
 footer {
   background-color: #000000;
- 
+  color:#FFFFFF !important;
   padding: 15px;
 }
 .footer-title {
   text-decoration: underline;
   text-underline-offset: 7px;
   font-size: 16px;
-  color: #ffffff;
+ 
 }
 .footer-list {
   list-style: none;
@@ -200,26 +201,28 @@ footer {
 }
 .footer-list>a{
   text-decoration: none;
-  color:pink !important
+  color:#FFFFFF ;
+  
 }
-.footer-list:hover .footer-list>a{
+ .footer-list>a:hover{
   text-decoration: underline !important;
+  color:#DC3C0C !important;
 }
 
 .fa-brands {
   font-size: 20px;
-  color: pink !important;
+  
 }
 .about-us {
   font-size: 14px;
-  color: pink !important;
+  
 }
 .follow-us {
   
-  color: pink !important;
+  
 }
 .contact-us{
-  color:pink !important;
+  
   font-size: 14px;
 }
 .nailing{
@@ -289,11 +292,11 @@ footer {
 .footer-title {
   text-decoration: underline;
   text-underline-offset: 7px;
-  color: #ffffff;
+ 
 }
 .follow-us {
   font-size: 18px;
-  color: pink !important;
+
 }
 .mailing{
   font-size: 16px;

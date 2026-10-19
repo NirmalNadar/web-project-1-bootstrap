@@ -1,5 +1,7 @@
 .welcome-overlay{
-    background-color: pink !important;
+    background-color: #FFFFFF !important;
+    padding:20px !important;
+    text-align: center;
     
 }
 
@@ -9,8 +11,8 @@
     background-size: cover;
 }
 .exo-title{
-    border-left: 15px solid #992d2d;
-    border-bottom: 3px solid #992d2d;
+    border-left: 15px solid #DC3C0C !important;
+    border-bottom: 3px solid #DC3C0C !important;
     /* border-top: 2px solid #5C4E4E; */
     display: inline;
     font-size: 22px;
@@ -28,4 +30,5 @@
 }
 .paragraph{
     text-align: justify;
+    padding: 10px !important;
 }
